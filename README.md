@@ -75,18 +75,6 @@ settings:
 Tên GUI, vật liệu, vị trí nút và mọi tin nhắn đều nằm trong `config.yml`.
 Placeholder: `<player>`, `<sender>`, `<cost>`, `<count>`, `<max>`, `<items>`, `<stacks>`, `<page>`, `<pages>`, `<time>`.
 
-## Tự build
-
-Cần JDK 21.
-
-```bash
-git clone https://github.com/<tên-github-của-bạn>/ISend.git
-cd ISend
-./gradlew build        # Windows: gradlew.bat build
-```
-
-File jar nằm ở `build/libs/ISend.jar`.
-
 ## Góp ý và đóng góp
 
 - Báo lỗi hoặc đề xuất tính năng: mở **Issues** (nhớ ghi phiên bản server, phiên bản plugin và log lỗi).
